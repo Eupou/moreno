@@ -33,6 +33,11 @@ body {
     color: black;
 }
 
+.video {
+    clip-path: inset(0px);
+    display: flex;
+}
+
 .header {
     height: 15vh;
     display: flex;
