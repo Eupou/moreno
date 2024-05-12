@@ -145,3 +145,48 @@ body {
     backdrop-filter: blur(10px);
     padding: 15px;
 }
+
+.featured {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.featured-text {
+    font-weight: 600;
+}
+
+.featured-content {
+    display: flex;
+}
+
+.know-more-img {
+    margin-left: 70px;
+}
+
+.know-more-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    margin-left: 10vw;
+}
+
+.know-more-title {
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.know-more-text {
+    margin-top: 50px;
+}
+
+.know-more-link {
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 14px;
+}
