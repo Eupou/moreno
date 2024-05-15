@@ -1,6 +1,7 @@
 let knowMoreBtn = document.getElementById("knowMore")
 let modalBackground = document.getElementById("modalBackground")
-let closeModalBtn = document.getElementById("closeModal")
+let closeModalBtn = document.querySelectorAll("#closeModal")
+let contactBtn = document.getElementById("contact")
 
 
 function openModal(modal) {
@@ -20,10 +21,17 @@ knowMoreBtn.addEventListener("click", () => {
     openModal(modal)
 })
 
-closeModalBtn.addEventListener("click", () => {
-    let modal = document.querySelector(".modal-visible")
-    closeModal(modal)
+contactBtn.addEventListener("click", () => {
+    let modal = document.getElementById("modalContact")
+    openModal(modal)
 })
+
+closeModalBtn.forEach((e) => {
+    e.addEventListener("click", () => {
+        let modal = document.querySelector(".modal-visible")
+        closeModal(modal)
+    }
+)})
 
 window.addEventListener("click", (e) => {
     if (e.target.id == "modalBackground") {
