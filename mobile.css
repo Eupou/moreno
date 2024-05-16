@@ -1,0 +1,22 @@
+@media (min-width:236px) {
+    .main-img {
+        width: 95vw;
+        height: auto;
+    }
+
+    .title-container {
+        height: auto;
+    }
+
+    .label {
+        top: 20px;
+    }
+
+    .img-title {
+        font-size: 25px;
+    }
+
+    .img-btn {
+        padding: 13px 40px;
+    }
+}

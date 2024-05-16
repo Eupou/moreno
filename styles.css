@@ -90,9 +90,10 @@ body {
 
 .main-img {
     display: flex;
-    width: 45vw;
+    flex-wrap: wrap;
     height: 800px;
     margin-top: 3.3vw;
+    width: 45vw;
 }
 
 .img-container {
