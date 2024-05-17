@@ -5,6 +5,7 @@ let logoContainer = document.querySelector(".logo")
 let header = document.querySelector(".header-container")
 
 function doSomething(scrollPos) {
+    console.log(scrollPos)
     if (scrollPos <= 20) {
         logo.classList.remove("isnotontop")
         logo.classList.add("isontop")
