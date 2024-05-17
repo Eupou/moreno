@@ -16,6 +16,10 @@
         transform: translateY(50px); 
     }
 
+    .img-container {
+       width: 100%; 
+    }
+
     .main-img {
         width: 95%;
         height: auto;
@@ -23,10 +27,6 @@
 
     .title-container {
         height: auto;
-    }
-
-    .label {
-        top: 20px;
     }
 
     .img-title {
