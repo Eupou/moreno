@@ -95,3 +95,10 @@
         width: 90vw;
      }
 }
+
+
+@media (min-width: 900px) {
+    .know-more-img img {
+        width: 45vw;
+    }
+}
