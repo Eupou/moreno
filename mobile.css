@@ -37,4 +37,33 @@
     .img-btn {
         padding: 13px 40px;
     }
+
+    .featured-content {
+        flex-direction: column;
+        align-items: center;
+        margin: unset;
+    }
+
+    .know-more-container {
+        width: 80vw;
+        margin: unset;
+    }
+
+    .know-more-img {
+        margin: 0;
+    }
+
+    .know-more-img img {
+        width: 90vw;
+    }
+
+    .know-more-title {
+        font-size: 25px;
+        margin-top: 35px;
+    }
+
+    .know-more-text {
+        font-size: 18px;
+        text-align: center;
+    }
 }
