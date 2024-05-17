@@ -340,6 +340,7 @@ body {
 
 .service-video-item {
     width: 100%;
+    clip-path: inset(0px);
 }
 
 .container-service-info {
